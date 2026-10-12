@@ -33,14 +33,14 @@ Aplicar a fichas, categorías y guías, en cada idioma (redactado por nativo, no
 | GPTBot | Entrenamiento de OpenAI | `[HECHO]` | Decisión de negocio (ver abajo) |
 | PerplexityBot / Perplexity-User | Índice / fetch del usuario | `[HECHO]` roles | Permitir |
 | ClaudeBot | Entrenamiento de Anthropic; respeta robots.txt y Crawl-delay; sin rangos de IP publicados | `[HECHO]` | Decisión de negocio |
-| Claude-SearchBot / Claude-User | Búsqueda / fetch a pedido | Solo directorios de terceros (ver `V2-G1`) | Permitir |
-| Google-Extended | Token de exclusión de entrenamiento/uso en Gemini; no afecta a Search | Ver `V2-G1` | Decisión de negocio |
+| Claude-SearchBot / Claude-User | Indexación para búsqueda / fetch a pedido | `[HECHO]` artículo oficial de Anthropic (confirmado en la 2.ª pasada, `V2-G1`) | Permitir |
+| Google-Extended | Token de robots.txt (no es un rastreador): exclusión de entrenamiento/uso en Gemini; **no afecta a Search ni a AI Overviews/AI Mode** | `[HECHO vía secundarios concordantes]` (`V2-G1`) | Decisión de negocio |
 | Applebot / Applebot-Extended | Siri/Spotlight / exclusión de entrenamiento | No verificado | Permitir / decidir |
 | Meta-ExternalAgent, Bytespider, CCBot, Amazonbot, otros | Entrenamiento/indexación | No verificado | Decidir; los UA se falsifican |
 
 - **Entrenamiento (GPTBot, ClaudeBot, Google-Extended…):** no hay evidencia de que permitirlo mejore la mención de la marca; bloquearlo **no** te saca de la búsqueda de ChatGPT/Claude según la documentación de OpenAI y Anthropic. Postura equilibrada: permitir páginas públicas de marketing/guías y cerrar `/descargas/`, `/mi-cuenta/`, `/checkout/`, `/*.pdf$`, `/*.dxf$`. Plantilla: `plantillas/robots.txt`.
 - **robots.txt no protege archivos de pago.** Control de acceso: URLs firmadas con caducidad, límite de descargas, marca de agua con ID del comprador, `X-Robots-Tag: noindex, noarchive, nosnippet` en la ruta de descargas.
-- **Revisar el WAF/CDN:** si Cloudflare u otro tiene bloqueo "por defecto" de bots de IA o "Bot Fight Mode", puede estar bloqueando OAI-SearchBot o PerplexityBot (revisar logs; detalle en `V2-G1`).
+- **Revisar el WAF/CDN:** Cloudflare **bloquea por defecto rastreadores de IA en dominios nuevos desde el 1-jul-2025** `[HECHO vía prensa]`; con eso (o con "Bot Fight Mode") puede estar bloqueando OAI-SearchBot o PerplexityBot sin que lo sepas. Revisar el panel y los logs. Existe `Content-Signal: search=yes, ai-input=yes, ai-train=no` en robots.txt (declarativo, no vinculante). Una novedad de Cloudflare del 15-sep-2026 aparece sin verificar (`V2-G1`).
 - **`llms.txt`:** sin efecto medible (Google lo desaconseja; estudios de logs y de ~300 mil dominios no encuentran relación). Opcional, 30 minutos, sin expectativas. **Nunca `llms-full.txt` con el catálogo.**
 
 ## 4. Medición del tráfico de IA (GA4 y logs)
@@ -62,7 +62,7 @@ Aplicar a fichas, categorías y guías, en cada idioma (redactado por nativo, no
 
 ## 6. AEO multilingüe: lo que se sabe y lo que no
 
-- **No hay estudios sólidos** sobre si los motores citan fuentes en el idioma de la consulta o traducen, ni cómo rinden en idiomas de pocos recursos (ver `V2-G1` por si se hallaron). Los AI Overviews/AI Mode se apoyan en el índice de Google, así que **las reglas de calidad de Search (incluido el spam de contenido a escala/traducción sin valor) aplican**.
+- **Evidencia disponible (`V2-G1`, calidad baja a media: vendors y preprints):** los AI Overviews citan mayormente fuentes **en el idioma de la consulta** (85 %–96 % según vendors); otros asistentes (Grok) cambian al inglés con frecuencia; los preprints muestran sesgo al inglés **más fuerte en idiomas de pocos recursos** y menos fuentes en consultas no inglesas (p. ej. hindi). No hay estudios de e-commerce. Los AI Overviews/AI Mode se apoyan en el índice de Google, así que **las reglas de calidad de Search (incluido el spam de contenido a escala/traducción sin valor) aplican**.
 - **Hipótesis a testear (no hechos):** (1) si no hay página en el idioma, la IA cita fuentes en inglés y traduce al responder; (2) en idiomas de poca competencia, una buena página puede ganar; en los de pocos recursos, la IA puede ni encontrarla ni valorarla; (3) hreflang y URL por idioma son prácticas de búsqueda clásica, su efecto en IA no está verificado.
 - **Cómo cerrar el hueco con bajo costo:** repetir 8–10 prompts clave en 8–10 idiomas (ES, EN, PT, FR, DE, IT, ID, HI, AR, TR) con ubicación coherente; registrar idioma de las fuentes citadas y si aparece moldey.com. Con 2–3 rondas se ve el patrón.
 

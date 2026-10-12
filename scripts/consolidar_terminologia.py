@@ -7,7 +7,7 @@ Salida:
 Uso:  python3 scripts/consolidar_terminologia.py
 Solo biblioteca estándar.
 """
-import csv, glob, json, os, sys
+import csv, glob, json, os, sys, unicodedata
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MASTER = os.path.join(RAIZ, "data", "idiomas-master.csv")
@@ -30,9 +30,14 @@ COLS_TERM = [
 ]
 
 
+def _norm(k):
+    """Normaliza nombres de columna (sin tildes, minúsculas): algunos agentes escribieron 'confección'."""
+    return "".join(c for c in unicodedata.normalize("NFD", (k or "").strip()) if unicodedata.category(c) != "Mn").lower()
+
+
 def leer(path):
     with open(path, newline="", encoding="utf-8") as f:
-        return list(csv.DictReader(f))
+        return [{_norm(k): v for k, v in fila.items()} for fila in csv.DictReader(f)]
 
 
 def main():

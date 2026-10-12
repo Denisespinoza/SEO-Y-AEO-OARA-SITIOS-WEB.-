@@ -28,11 +28,11 @@
 
 | Área | Qué hacer | Etiqueta |
 |---|---|---|
-| Indexación | HTML servido (SSR/SSG), sitemap por idioma, Search Console (dominio + prefijo por idioma), Bing Webmaster Tools, IndexNow (Bing, Yandex, Naver, Seznam; **Google no lo usa**) | `[HECHO]`/`[EVIDENCIA]` |
+| Indexación | HTML servido (SSR/SSG), sitemap por idioma, Search Console (dominio + prefijo por idioma), Bing Webmaster Tools, IndexNow (Bing, Yandex, Naver, Seznam; **Google no lo soporta**, confirmado en la 2.ª pasada vía terceros) | `[HECHO]`/`[EVIDENCIA]` |
 | Contenido | No-commodity: tablas de medidas, hojas por talla, rendimiento de tela, fotos de prendas cosidas, guías de impresión/armado. Páginas enfocadas | `[HECHO]` Google 2026 + `[EVIDENCIA]` |
 | Autoridad | Menciones y enlaces reales (blogs, creadores, escuelas, prensa de manualidades); YouTube/Pinterest/Reddit con aporte genuino | `[EVIDENCIA]` correlacional |
 | Rendimiento | LCP ≤ 2,5 s, INP ≤ 200 ms, CLS ≤ 0,1; móvil primero; sin cargar PDF en la ficha; fuentes CJK del sistema | `[HECHO*]` |
-| Datos estructurados | `Product`/`Offer`, `Organization`+`sameAs`, `BreadcrumbList`, `WebPage.inLanguage`. FAQ/HowTo ya no dan rich results en general | `[HECHO*]` ver `V2-G2` |
+| Datos estructurados | `Product`/`Offer`, `Organization`+`sameAs`, `BreadcrumbList`, `WebPage.inLanguage`. **HowTo (2023) y FAQ (cambio de mayo de 2026 según el changelog) ya no dan rich results**; Product/Merchant listings/VideoObject siguen vigentes | `[EVIDENCIA media-alta]` ver `V2-G2` |
 | Imágenes/vídeo | ALT por idioma, una URL de imagen compartida, `VideoObject`, sitemaps de vídeo | `[HECHO*]` |
 
 ## 3. AEO/GEO: qué hacer realmente (y qué no)
@@ -45,6 +45,15 @@
 5. **Entidad consistente:** nombre, descripción, logo y perfiles iguales en todos lados; `Organization` con `sameAs`. Atención: **"moldey" se lee como "moldy" (mohoso) en inglés** `[OPINIÓN]`: reforzar la marca con contexto ("Moldey — moldes de costura digitales / digital sewing patterns").
 6. **Medir** con un protocolo manual mensual (30–40 prompts por idioma, varias plataformas, 3 corridas) + canal "IA" en GA4 + logs de bots. Detalle en `05`.
 
+**Confirmado en la 2.ª pasada (`V2-G1`):**
+- **Anthropic documenta tres bots** en un artículo oficial: ClaudeBot (entrenamiento), Claude-User (pedido del usuario) y Claude-SearchBot (indexación para búsqueda). `[HECHO]`
+- **Google-Extended es solo un token de robots.txt**: no afecta la inclusión en Search ni en AI Overviews/AI Mode (esos dependen de Googlebot y de los controles de snippet). `[HECHO vía secundarios concordantes]`
+- **Cloudflare bloquea por defecto rastreadores de IA en dominios nuevos desde el 1-jul-2025** `[HECHO vía prensa]` → revisar el panel. Existe la sintaxis `Content-Signal: search=yes, ai-input=yes, ai-train=no` (declarativa y no vinculante).
+- **Bing Webmaster Tools "AI Performance"** (vista previa desde feb-2026, según terceros): citas, páginas citadas y *grounding queries*, **sin clics**. Microsoft dijo (mar-2025) que usa schema para que sus LLM entiendan el contenido `[declaración, vía prensa]`.
+- **Idioma de las fuentes citadas** `[EVIDENCIA, calidad baja a media: vendors y preprints]`: los AI Overviews tienden a citar fuentes **en el idioma de la consulta** (85 %–96 % según vendors; Grok cambia al inglés ~48 % de las veces); los preprints muestran **sesgo al inglés que se agrava en idiomas de pocos recursos** y menos fuentes en consultas no inglesas (p. ej. hindi). **Conclusión práctica: una página solo en inglés probablemente no sea la que se cite en una consulta en español; hace falta una página en el idioma.**
+- **AI Mode ya no es solo inglés** (hindi, indonesio, japonés, coreano, portugués de Brasil; luego 7 idiomas de India y español); no hay lista oficial vigente verificada.
+- Que Perplexity-User "ignore robots.txt" viene de terceros/disputa con Cloudflare, no de documentación oficial `[NO VERIFICADO]`.
+
 **No hacer**: contratar "garantías de citas", pagar por llms.txt/schema "para IA", publicar `llms-full.txt` con tu catálogo, bloquear todos los bots de IA, ni confiar en una sola captura de un prompt.
 
 **Rastreadores (robots.txt):** permitir búsqueda y acción del usuario (OAI-SearchBot, ChatGPT-User, PerplexityBot, Perplexity-User, Claude-SearchBot, Claude-User, Googlebot, Bingbot); decidir aparte el entrenamiento (GPTBot, ClaudeBot, Google-Extended, Applebot-Extended, CCBot, Meta-ExternalAgent). Postura sugerida: permitir páginas públicas de marketing/guías, bloquear áreas de pago. Plantilla en `plantillas/robots.txt`. Los nombres de bots no confirmados por documentación oficial están marcados en `05`.
@@ -53,7 +62,7 @@
 
 - **URLs:** `moldey.com/` (inglés + `x-default`), `/es/`, `/pt-br/`, … Parámetros `?lang=` prohibidos para indexables; ccTLD y subdominios descartados. Slugs traducidos y sin diacríticos en idiomas latinos; **slug ASCII + ID estable** en idiomas no latinos (el título nativo va en `<title>`/H1).
 - **Canónicos:** cada URL de idioma es autocanónica; nunca canonicalizar una traducción al original.
-- **hreflang:** en sitemap (con 100 idiomas cada entrada pesa ~11,7 KB → ~4.000 URLs por archivo, no 50.000; generar por script). Códigos ISO 639-1 + región; `es-419` no es válido; escritura (`zh-Hans`/`sr-Latn`) **no confirmada por Google** (ver `V2-G2`), usar `zh-CN`/`zh-TW` hasta probar. Añadir `<html lang>` y `Content-Language` (Bing pesa poco el hreflang).
+- **hreflang:** en sitemap (con 100 idiomas cada entrada pesa ~11,7 KB → ~4.000 URLs por archivo, no 50.000; generar por script). Códigos ISO 639-1 + región; `es-419` no es válido; escritura: `zh-Hans`/`zh-Hant` **probablemente** aceptados (un resumen de la doc de Google y un tercero; sin texto literal), `sr-Latn` sin evidencia directa → usar `zh-CN`/`zh-TW` (sintaxis documentada con certeza) y publicar serbio con una sola escritura por URL. **Baidu y Naver no usan hreflang** (solo terceros): usar `Content-Language` y contenido claro en su idioma. Añadir `<html lang>` y `Content-Language` (Bing pesa poco el hreflang).
 - **Sin redirecciones automáticas por IP/idioma;** banner no bloqueante; selector `/languages/` con enlaces `<a>` reales y endónimos.
 - **Escrituras:** `dir="rtl"` y propiedades lógicas de CSS para árabe/hebreo/persa/urdu; `lang` correcto en CJK (unificación Han); birmano solo Unicode; normalizar NFC; una escritura por URL (serbio, uzbeko, kazajo).
 - **Mercados con buscador propio:** Yandex (Rusia ≈71 %), Naver (Corea ≈64–68 %), Baidu (China; ICP para alojar), Seznam (Chequia 13,5 %). Prioridad baja para la etapa 1; ver `02`.
@@ -83,13 +92,13 @@
 - **Cuota de buscadores:** Google ≈89–91 % global (StatCounter jul-2026); excepciones: Yandex en Rusia (~71 %), Naver en Corea (~64–68 %), Seznam en Chequia, Baidu en China (cifras poco fiables), Bing fuerte en escritorio (Japón ~45 %). `[EVIDENCIA]`
 - **Asistentes:** ChatGPT ~900 M usuarios semanales (India ~100 M); Gemini ~950 M MAU; Meta AI entre 640 M y 1.200 M según definición (fuerte en India, Brasil, Indonesia, México vía WhatsApp); Doubao ~382 M en China. Los datos cambian rápido.
 - **Descubrimiento:** Pinterest (≈640 M MAU; Brasil ≈40 M, México ≈27 M, Alemania ≈23 M) y YouTube son los canales de mejor relación alcance/relevancia para moldes. Reddit/YouTube figuran entre lo más citado por IA (los estudios no coinciden en cifras).
-- **Marketplaces:** los de bienes físicos probablemente no aceptan descargables; sí Etsy, Gumroad, Payhip, Hotmart/Kiwify (Brasil), BOOTH/note (Japón) `[NO VERIFICADO]` salvo `V2-G4`.
-- **Google Shopping y digitales:** zona gris; excluye eBooks de anuncios desde 2021; foros reportan rechazos de descargas digitales. Probar solo listados gratuitos, sin vincular una cuenta de Ads valiosa.
+- **Marketplaces (`V2-G4`):** **Mercado Libre México prohíbe publicar artículos descargables** (excepción: el titular de los derechos que lo declare; Argentina sin verificar); Shopee no concluyente (guías contradictorias); Trendyol, Allegro, Rakuten y Taobao sin dato. **Sí aceptan moldes PDF** (con fichas reales A4/A0/plotter): **Hotmart** (Brasil; no probado que un vendedor argentino pueda abrir cuenta), **Payhip** (tiene páginas propias para vender patrones de costura; cobro a PayPal/Stripe del vendedor), **Gumroad** y **BOOTH** (descargas; tarifa 5,6 % + 45 JPY desde oct-2025). Existe al menos un canal de Telegram de moldes PDF (competencia/piratería).
+- **Google Shopping y digitales (`V2-G2`):** los eBooks/libros digitales **no se admiten** en Shopping y pueden causar **suspensión crítica de la cuenta de Merchant Center** (`prohibited_content_ebooks`); no se vio que las plantillas/PDF de patrones estén listados ni como prohibidos ni como admitidos. **No presentar los moldes como libros ni eBooks.** Probar solo listados gratuitos con 5–10 productos, sin vincular una cuenta de Ads valiosa, y no insistir si hay rechazo. Para `Product`/`Offer` de digitales Google no tiene guía específica: `shippingDetails` y política de devoluciones son opcionales/recomendadas (`MerchantReturnNotPermitted` existe).
 
 ## 8. Pagos, impuestos, legal y entrega (condicionan la conversión)
 
-- **Merchant of Record casi obligatorio** para B2C global desde Argentina. Candidatos con Argentina plausible: **Polar** (Argentina en su doc oficial de payouts), **Lemon Squeezy** (en un snapshot viejo), **Gumroad** (MoR desde 1-ene-2025, comisión alta). **Paddle y Creem: no confirmado.** Verificar cada una en su página oficial (`V2-G3`).
-- **Stripe directo no es opción simple para un comerciante argentino** (vías: sociedad en EE. UU./UK, con implicancias fiscales).
+- **Merchant of Record casi obligatorio** para B2C global desde Argentina. Estado tras la 2.ª pasada (`V2-G3`, todo vía resúmenes de buscador; **verificar en la página oficial antes de abrir cuenta**): **Polar** (Argentina en la lista oficial de payouts; exige cuenta bancaria argentina en moneda local); **Creem** (Argentina en la tabla oficial de transferencia local, 87 países; payout 7 EUR/USD o 1 %); **Lemon Squeezy** (Argentina listada, pero en una página de ≈2021; paga siempre en USD); **Gumroad** (artículo reciente la lista para banco local; uno viejo no; si no, PayPal en USD); **Paddle** (Argentina no figura entre los países excluidos, pero sin tabla de payout; mínimo de pago USD 100); **FastSpring y Payhip: sin resolver.** Etsy funciona desde Argentina vía **Payoneer** (cobro en USD). **Mercado Pago no parece cobrar al exterior en USD** (sin evidencia).
+- **Stripe no tiene cuenta directa para comerciantes argentinos** (vía: sociedad en EE. UU./UK, con implicancias fiscales; Stripe Atlas sin información). PayPal: spread de ~3–4,5 % según una fuente, sin fuente oficial. **Elegibilidad de Argentina en los feeds de ChatGPT: sin dato** (las expansiones de ChatGPT Ads vistas no incluyen LatAm).
 - **Costo fijo:** "5 % + US$ 0,50" cuesta ~13 % en un molde de US$ 6; diseñar packs y precio mínimo.
 - **Métodos locales mueven conversión** (Pix 42 % del e-commerce brasileño en 2025; UPI en India; Alipay/WeChat 89 % en China) pero se heredan del MoR/PSP: no integrar uno por uno.
 - **No vender a Rusia ni países sancionados** (Cuba, Irán, Corea del Norte, Siria; Polar y Paddle los bloquean).

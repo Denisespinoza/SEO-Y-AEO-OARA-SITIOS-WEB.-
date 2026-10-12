@@ -1,0 +1,17 @@
+# CLAUDE.md (copiar a la raíz del repo de moldey.com)
+
+Proyecto: moldey.com — tienda de moldes digitales de costura (PDF A4/Carta/A0/proyector, editables/CAD, plantillas de sublimación). Vende al mundo. Objetivo vigente: SEO + AEO/GEO multilingüe por oleadas (ver `docs/seo-aeo/06-PLAN-MOLDEY-COM.md`).
+
+## Reglas permanentes
+- Auditar antes de cambiar. Ramas y commits pequeños; registrar despliegues en `CHANGELOG-SEO.md`. Sin force-push ni borrar historial.
+- Confirmar con la persona dueña antes de tocar DNS/dominio, pagos, impuestos, facturación, legales, redirecciones masivas o estructura de URLs.
+- Nunca inventar datos, reseñas ni términos de idiomas no verificados. Respetar la columna `confianza` de `data/terminologia-100-idiomas.csv`.
+- Páginas traducidas sin revisión nativa: `noindex, follow`, fuera del sitemap y del clúster hreflang (no usar robots.txt para eso).
+- Una URL por molde e idioma; talla/formato/papel como selectores; hreflang solo en sitemap y solo con páginas publicadas.
+- Descargas de pago: nunca en URL pública ni adivinable; URL firmada con caducidad; marca de agua con ID del comprador.
+- No exponer secretos. No agregar dependencias innecesarias.
+
+## Comandos útiles
+- `python3 docs/seo-aeo/scripts/generar_sitemaps_hreflang.py urls.csv sitemaps/ --base https://moldey.com`
+- `python3 docs/seo-aeo/scripts/validar_hreflang.py sitemaps/sitemap-*.xml`
+- `curl -s -A "Mozilla/5.0 (compatible; GPTBot/1.0)" <url>`  (¿el contenido está en el HTML sin JS?)
