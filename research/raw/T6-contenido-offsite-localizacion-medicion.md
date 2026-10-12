@@ -101,11 +101,11 @@ Tarifas de las fuentes: humano completo **$0,08–0,30/palabra** (Alconost: fr $
 
 Supuestos: **corpus núcleo = 15.000 palabras** (portada, categorías, interfaz y checkout, legales, FAQ, glosario, 10 guías); **corpus ampliado = 60.000** (núcleo + 40 guías + plantillas de producto).
 
-| Escenario | Por idioma (núcleo) | Wave 1 (6 idiomas) | ~35 idiomas | ~71 idiomas propios |
+| Escenario | Por idioma (núcleo) | Oleada 1 (5 idiomas) | ~35 idiomas | ~71 idiomas propios |
 |---|---|---|---|---|
-| MT + post-edición (0,05–0,12 $/pal.) | $750–1.800 | $4,5–11 mil | $26–63 mil | $53–128 mil |
-| Humano completo (0,10–0,20) | $1.500–3.000 | $9–18 mil | $53–105 mil | $107–213 mil |
-| Corpus ampliado (×4) | $3.000–7.200 (MTPE) | ~$18–43 mil | — | $213–512 mil |
+| MT + post-edición (0,05–0,12 $/pal.) | $750–1.800 | $3,8–9 mil | $26–63 mil | $53–128 mil |
+| Humano completo (0,10–0,20) | $1.500–3.000 | $7,5–15 mil | $53–105 mil | $107–213 mil |
+| Corpus ampliado (×4) | $3.000–7.200 (MTPE) | ~$15–36 mil | — | $213–512 mil |
 
 Mantenimiento: cada producto nuevo (~300 palabras) × N idiomas. **Reducirlo con plantillas y datos estructurados** (tipo de prenda, talla, formato) traducidos desde un glosario, no con texto libre. **[OPINIÓN]**
 
