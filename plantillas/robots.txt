@@ -1,0 +1,46 @@
+# Plantilla robots.txt para moldey.com — ADAPTAR rutas reales y reconfirmar nombres de bots en la documentación de cada proveedor.
+# Principio: PERMITIR búsqueda y acciones del usuario; decidir aparte el entrenamiento; CERRAR áreas privadas/de pago.
+# robots.txt es voluntario: NO protege archivos de pago (eso lo hace el control de acceso: URLs firmadas, marca de agua).
+
+# --- Búsqueda / respuestas con IA / acciones del usuario: PERMITIR ---
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+Allow: /
+Disallow: /descargas/
+Disallow: /mi-cuenta/
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /api/
+
+# --- Entrenamiento de modelos: decisión de negocio. Postura equilibrada: solo marketing/guías públicas ---
+# (Bloquear estos NO te saca de la búsqueda de ChatGPT/Claude según la documentación de OpenAI y Anthropic.)
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Meta-ExternalAgent
+User-agent: CCBot
+User-agent: Bytespider
+Disallow: /descargas/
+Disallow: /mi-cuenta/
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /api/
+Disallow: /*.pdf$
+Disallow: /*.dxf$
+
+# --- Resto ---
+User-agent: *
+Disallow: /descargas/
+Disallow: /mi-cuenta/
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /api/
+
+Sitemap: https://moldey.com/sitemap.xml

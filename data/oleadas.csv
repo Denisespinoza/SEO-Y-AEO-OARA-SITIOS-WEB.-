@@ -1,0 +1,114 @@
+bcp47_web,idioma_es,tipo,oleada,atendido_con
+en,Inglés,top100,ola 0,
+zh-Hans,Chino mandarín,top100,ola 3,
+hi,Hindi,top100,ola 2,
+es,Español,top100,ola 0,
+ar,Árabe estándar moderno,top100,ola 2,
+fr,Francés,top100,ola 1,
+bn,Bengalí,top100,ola 3,
+pt,Portugués,top100,ola 1,
+ru,Ruso,top100,ola 1,
+ur,Urdu,top100,ola 3,
+id,Indonesio,top100,ola 1,
+de,Alemán,top100,ola 1,
+ja,Japonés,top100,ola 2,
+pcm,Pidgin nigeriano,top100,variedad,en
+arz,Árabe egipcio,top100,variedad,ar
+mr,Maratí,top100,ola 3,
+vi,Vietnamita,top100,ola 2,
+te,Telugu,top100,ola 3,
+ha,Hausa,top100,ola 5,
+tr,Turco,top100,ola 2,
+pnb,Panyabí occidental,top100,variedad,ur
+sw,Suajili,top100,ola 4,
+fil,Tagalo / filipino,top100,ola 2,
+ta,Tamil,top100,ola 3,
+yue,Cantonés,top100,ola 3,
+wuu,Chino wu,top100,variedad,zh-Hans
+ko,Coreano,top100,ola 3,
+fa,Persa (Irán),top100,ola 3,
+jv,Javanés,top100,variedad,id
+it,Italiano,top100,ola 2,
+th,Tailandés,top100,ola 3,
+gu,Guyaratí,top100,ola 3,
+am,Amárico,top100,ola 5,
+bho,Bhoyapurí,top100,variedad,hi
+nan,Min del sur (hokkien),top100,variedad,yue
+cjy,Chino jin,top100,variedad,zh-Hans
+apc,Árabe levantino,top100,variedad,ar
+kn,Canarés,top100,ola 3,
+pl,Polaco,top100,ola 2,
+apd,Árabe sudanés,top100,variedad,ar
+hak,Hakka,top100,variedad,zh-Hans
+uk,Ucraniano,top100,ola 3,
+yo,Yoruba,top100,ola 5,
+ml,Malayalam,top100,ola 3,
+or,Odia,top100,ola 5,
+mai,Maithili,top100,variedad,hi
+my,Birmano,top100,ola 4,
+ary,Árabe marroquí (darija),top100,variedad,ar
+uz,Uzbeko,top100,ola 4,
+su,Sundanés,top100,variedad,id
+ro,Rumano,top100,ola 3,
+nl,Neerlandés,top100,ola 2,
+ig,Igbo,top100,ola 5,
+hsn,Chino xiang,top100,variedad,zh-Hans
+om,Oromo,top100,ola 5,
+ne,Nepalí,top100,ola 4,
+ms,Malayo,top100,ola 3,
+zu,Zulú,top100,ola 5,
+az,Azerí,top100,ola 4,
+sd,Sindhi,top100,ola 5,
+as,Asamés,top100,ola 5,
+ps,Pastún,top100,ola 5,
+ku,Kurdo (kurmanyí),top100,ola 5,
+so,Somalí,top100,ola 5,
+hu,Húngaro,top100,ola 3,
+el,Griego,top100,ola 3,
+cs,Checo,top100,ola 3,
+sv,Sueco,top100,ola 3,
+kk,Kazajo,top100,ola 4,
+sr,Serbio,top100,ola 4,
+hr,Croata,top100,ola 4,
+bg,Búlgaro,top100,ola 4,
+awa,Awadhi,top100,variedad,hi
+mag,Magahi,top100,variedad,hi
+hne,Chhattisgarhi,top100,variedad,hi
+raj,Rajastaní / marwari,top100,variedad,hi
+bgc,Haryanvi,top100,variedad,hi
+dcc,Decanés (dakhini),top100,variedad,ur
+skr,Saraiki,top100,variedad,ur
+acm,Árabe mesopotámico (iraquí),top100,variedad,ar
+ars,Árabe najdí,top100,variedad,ar
+arq,Árabe argelino,top100,variedad,ar
+aeb,Árabe tunecino,top100,variedad,ar
+afb,Árabe del Golfo,top100,variedad,ar
+he,Hebreo,top100,ola 3,
+km,Jemer,top100,ola 4,
+si,Cingalés,top100,ola 4,
+ceb,Cebuano,top100,variedad,fil
+mg,Malgache,top100,ola 5,
+sn,Shona,top100,ola 5,
+ny,Chichewa / nyanja,top100,ola 5,
+rw,Kinyarwanda,top100,ola 5,
+ln,Lingala,top100,ola 5,
+ak,Akan (twi),top100,ola 5,
+ff,Fula (fulfulde),top100,ola 5,
+qu,Quechua,top100,ola 5,
+ht,Criollo haitiano,top100,ola 5,
+af,Afrikáans,top100,ola 4,
+xh,Xhosa,top100,ola 5,
+ti,Tigriña,top100,ola 5,
+ca,Catalán,extra,ola 4,
+mn,Mongol,extra,ola 4,
+lo,Lao,extra,ola 4,
+sk,Eslovaco,extra,ola 4,
+sl,Esloveno,extra,ola 4,
+lt,Lituano,extra,ola 4,
+lv,Letón,extra,ola 4,
+et,Estonio,extra,ola 4,
+da,Danés,extra,ola 3,
+nb,Noruego,extra,ola 3,
+fi,Finés,extra,ola 3,
+ka,Georgiano,extra,ola 4,
+hy,Armenio,extra,ola 4,

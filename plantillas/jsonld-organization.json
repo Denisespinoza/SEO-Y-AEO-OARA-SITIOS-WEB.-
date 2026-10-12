@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://moldey.com/#organization",
+  "name": "Moldey",
+  "url": "https://moldey.com/",
+  "logo": "https://moldey.com/img/logo.png",
+  "description": "Moldes de costura digitales (PDF, editables y plantillas de sublimación) para todo el mundo.",
+  "sameAs": [
+    "https://www.youtube.com/@REEMPLAZAR",
+    "https://www.pinterest.com/REEMPLAZAR",
+    "https://www.instagram.com/REEMPLAZAR"
+  ]
+}

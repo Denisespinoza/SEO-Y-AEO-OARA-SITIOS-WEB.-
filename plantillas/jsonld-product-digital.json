@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "https://moldey.com/es/moldes-de-costura/vestido-camisero-0042/#product",
+  "name": "Molde de costura PDF: vestido camisero, tallas 36–52 (A4, Carta, A0 y proyector)",
+  "description": "Molde digital de vestido camisero para imprimir en casa o en copistería. Incluye márgenes de costura de 1 cm, cuadrado de prueba de 5 cm y guía de armado.",
+  "image": ["https://moldey.com/img/0042/dibujo-tecnico.webp", "https://moldey.com/img/0042/prenda-cosida.webp"],
+  "sku": "MLD-0042",
+  "brand": { "@type": "Brand", "name": "Moldey" },
+  "category": "Moldes de costura digitales",
+  "additionalProperty": [
+    { "@type": "PropertyValue", "name": "Formatos de archivo", "value": "PDF A4; PDF Carta (US Letter); PDF A0; PDF para proyector" },
+    { "@type": "PropertyValue", "name": "Margen de costura", "value": "Incluido (1 cm)" },
+    { "@type": "PropertyValue", "name": "Rango de tallas", "value": "36–52 (EU)" },
+    { "@type": "PropertyValue", "name": "Licencia", "value": "Uso personal; licencias de venta pequeña y de fabricación disponibles" }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "url": "https://moldey.com/es/moldes-de-costura/vestido-camisero-0042/",
+    "price": "9.90",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+    }
+  }
+}
