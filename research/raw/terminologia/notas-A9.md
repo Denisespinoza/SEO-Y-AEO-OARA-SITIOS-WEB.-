@@ -51,7 +51,7 @@ Estos nombres de prenda son los candidatos reales para captar tráfico, casi tod
 - **Kinyarwanda/kirundi**: muy cercanos entre sí; no se cubrió kirundi (fuera de la asignación).
 - **Lingala**: Kinshasa mezcla lingala y francés; `kotonga` (coser) **sin verificar**, y también significa "construir".
 - **Tigriña vs amárico**: misma escritura, términos distintos (ልብሲ vs ልብስ). En Etiopía la ruta de búsqueda es amárico/inglés; en Eritrea el acceso a internet es muy limitado y la audiencia en línea está en la diáspora.
-- **Falsas amistades**: "pattern" = estampado (ingles); "molde" = recipiente de cocina (es); "pagne" = tela envolvente en África; "patron" = jefe (fr); "pollera" cambia según el país.
+- **Falsas amistades**: "pattern" = estampado (inglés); "molde" = recipiente de cocina (es); "pagne" = tela envolvente en África; "patron" = jefe (fr); "pollera" cambia según el país.
 
 ## 4. Canales y conectividad (para `nota_localizacion`)
 
