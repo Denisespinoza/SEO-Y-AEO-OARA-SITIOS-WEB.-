@@ -1,0 +1,16 @@
+rank_aprox,tipo,idioma_es,nombre_nativo,bcp47_web,iso639_3,escritura,direccion,mapeo_web,grupo_investigacion
+9,top100,Ruso,русский,ru,rus,Cyrl,ltr,propio,A7
+39,top100,Polaco,polski,pl,pol,Latn,ltr,propio,A7
+42,top100,Ucraniano,українська,uk,ukr,Cyrl,ltr,propio,A7
+51,top100,Rumano,română,ro,ron,Latn,ltr,propio,A7
+65,top100,Húngaro,magyar,hu,hun,Latn,ltr,propio,A7
+66,top100,Griego,Ελληνικά,el,ell,Grek,ltr,propio,A7
+67,top100,Checo,čeština,cs,ces,Latn,ltr,propio,A7
+70,top100,Serbio,српски / srpski,sr,srp,Cyrl,ltr,propio (cirílico y latín),A7
+71,top100,Croata,hrvatski,hr,hrv,Latn,ltr,propio,A7
+72,top100,Búlgaro,български,bg,bul,Cyrl,ltr,propio,A7
+,extra,Eslovaco,slovenčina,sk,slk,Latn,ltr,propio,A7
+,extra,Esloveno,slovenščina,sl,slv,Latn,ltr,propio,A7
+,extra,Lituano,lietuvių,lt,lit,Latn,ltr,propio,A7
+,extra,Letón,latviešu,lv,lav,Latn,ltr,propio,A7
+,extra,Estonio,eesti,et,est,Latn,ltr,propio,A7

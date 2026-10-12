@@ -1,0 +1,12 @@
+rank_aprox,tipo,idioma_es,nombre_nativo,bcp47_web,iso639_3,escritura,direccion,mapeo_web,grupo_investigacion
+58,top100,Zulú,isiZulu,zu,zul,Latn,ltr,propio (poca búsqueda escrita; el comercio usa inglés),A9
+89,top100,Malgache,Malagasy,mg,mlg,Latn,ltr,propio (poca búsqueda escrita; también francés),A9
+90,top100,Shona,chiShona,sn,sna,Latn,ltr,propio (poca búsqueda escrita; el comercio usa inglés),A9
+91,top100,Chichewa / nyanja,Chichewa,ny,nya,Latn,ltr,propio (poca búsqueda escrita; el comercio usa inglés),A9
+92,top100,Kinyarwanda,Ikinyarwanda,rw,kin,Latn,ltr,propio (poca búsqueda escrita; también francés/inglés),A9
+93,top100,Lingala,Lingála,ln,lin,Latn,ltr,propio (poca búsqueda escrita; también francés),A9
+94,top100,Akan (twi),Akan,ak,aka,Latn,ltr,propio (poca búsqueda escrita; el comercio usa inglés),A9
+95,top100,Fula (fulfulde),Fulfulde,ff,fub,Latn,ltr,propio (poca búsqueda escrita; también francés/inglés),A9
+96,top100,Quechua,Runasimi,qu,que,Latn,ltr,propio (poca búsqueda escrita; el comercio usa español),A9
+99,top100,Xhosa,isiXhosa,xh,xho,Latn,ltr,propio (poca búsqueda escrita; el comercio usa inglés),A9
+100,top100,Tigriña,ትግርኛ,ti,tir,Ethi,ltr,propio (poca búsqueda escrita),A9

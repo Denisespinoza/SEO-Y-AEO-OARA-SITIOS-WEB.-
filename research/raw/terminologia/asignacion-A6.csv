@@ -1,0 +1,15 @@
+rank_aprox,tipo,idioma_es,nombre_nativo,bcp47_web,iso639_3,escritura,direccion,mapeo_web,grupo_investigacion
+11,top100,Indonesio,Bahasa Indonesia,id,ind,Latn,ltr,propio,A6
+20,top100,Turco,Türkçe,tr,tur,Latn,ltr,propio,A6
+23,top100,Tagalo / filipino,Tagalog / Filipino,fil,fil,Latn,ltr,propio (el comercio mezcla inglés),A6
+29,top100,Javanés,Basa Jawa,jv,jav,Latn,ltr,se atiende con indonesio (id),A6
+31,top100,Tailandés,ภาษาไทย,th,tha,Thai,ltr,propio,A6
+47,top100,Birmano,မြန်မာ,my,mya,Mymr,ltr,propio (Unicode vs. Zawgyi),A6
+49,top100,Uzbeko,Oʻzbekcha,uz,uzn,Latn,ltr,propio (latín; también cirílico),A6
+50,top100,Sundanés,Basa Sunda,su,sun,Latn,ltr,se atiende con indonesio (id),A6
+57,top100,Malayo,Bahasa Melayu,ms,zsm,Latn,ltr,propio,A6
+59,top100,Azerí,Azərbaycan dili,az,azj,Latn,ltr,propio,A6
+69,top100,Kazajo,қазақша,kk,kaz,Cyrl,ltr,propio (convive con ruso),A6
+86,top100,Jemer,ភាសាខ្មែរ,km,khm,Khmr,ltr,propio,A6
+88,top100,Cebuano,Binisaya,ceb,ceb,Latn,ltr,se atiende con filipino/inglés,A6
+,extra,Lao,ພາສາລາວ,lo,lao,Laoo,ltr,propio,A6

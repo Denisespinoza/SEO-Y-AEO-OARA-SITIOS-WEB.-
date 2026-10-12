@@ -1,0 +1,12 @@
+rank_aprox,tipo,idioma_es,nombre_nativo,bcp47_web,iso639_3,escritura,direccion,mapeo_web,grupo_investigacion
+1,top100,Inglés,English,en,eng,Latn,ltr,propio,A1
+4,top100,Español,español,es,spa,Latn,ltr,"propio (es-ES, es-419, es-AR/MX)",A1
+6,top100,Francés,français,fr,fra,Latn,ltr,"propio (fr-FR, fr-CA, África)",A1
+8,top100,Portugués,português,pt,por,Latn,ltr,propio (pt-BR y pt-PT),A1
+12,top100,Alemán,Deutsch,de,deu,Latn,ltr,"propio (de-DE, de-AT, de-CH)",A1
+14,top100,Pidgin nigeriano,Naijá,pcm,pcm,Latn,ltr,se atiende con inglés (en-NG); casi sin búsquedas escritas,A1
+30,top100,Italiano,italiano,it,ita,Latn,ltr,propio,A1
+52,top100,Neerlandés,Nederlands,nl,nld,Latn,ltr,"propio (nl-NL, nl-BE)",A1
+97,top100,Criollo haitiano,Kreyòl ayisyen,ht,hat,Latn,ltr,propio (poca búsqueda escrita; también francés),A1
+98,top100,Afrikáans,Afrikaans,af,afr,Latn,ltr,propio,A1
+,extra,Catalán,català,ca,cat,Latn,ltr,propio,A1

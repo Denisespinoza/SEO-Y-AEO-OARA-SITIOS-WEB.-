@@ -1,0 +1,14 @@
+rank_aprox,tipo,idioma_es,nombre_nativo,bcp47_web,iso639_3,escritura,direccion,mapeo_web,grupo_investigacion
+3,top100,Hindi,हिन्दी,hi,hin,Deva,ltr,propio,A4
+10,top100,Urdu,اردو,ur,urd,Arab,rtl,propio,A4
+21,top100,Panyabí occidental,پنجابی (شاہ مکھی),pnb,pnb,Arab,rtl,se atiende con urdu (ur),A4
+34,top100,Bhoyapurí,भोजपुरी,bho,bho,Deva,ltr,se atiende con hindi (hi),A4
+46,top100,Maithili,मैथिली,mai,mai,Deva,ltr,se atiende con hindi (hi),A4
+60,top100,Sindhi,سنڌي,sd,snd,Arab,rtl,propio (poca búsqueda escrita),A4
+73,top100,Awadhi,अवधी,awa,awa,Deva,ltr,se atiende con hindi (hi),A4
+74,top100,Magahi,मगही,mag,mag,Deva,ltr,se atiende con hindi (hi),A4
+75,top100,Chhattisgarhi,छत्तीसगढ़ी,hne,hne,Deva,ltr,se atiende con hindi (hi),A4
+76,top100,Rajastaní / marwari,राजस्थानी,raj,raj,Deva,ltr,se atiende con hindi (hi),A4
+77,top100,Haryanvi,हरियाणवी,bgc,bgc,Deva,ltr,se atiende con hindi (hi),A4
+78,top100,Decanés (dakhini),دکھنی,dcc,dcc,Arab,rtl,se atiende con urdu/hindi,A4
+79,top100,Saraiki,سرائیکی,skr,skr,Arab,rtl,se atiende con urdu (ur),A4

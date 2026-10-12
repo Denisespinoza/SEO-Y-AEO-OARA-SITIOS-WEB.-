@@ -1,0 +1,12 @@
+rank_aprox,tipo,idioma_es,nombre_nativo,bcp47_web,iso639_3,escritura,direccion,mapeo_web,grupo_investigacion
+2,top100,Chino mandarín,中文 / 普通话,zh-Hans,cmn,Hans,ltr,propio (zh-Hans China/Singapur; zh-Hant Taiwán como variante),A2
+13,top100,Japonés,日本語,ja,jpn,Jpan,ltr,propio,A2
+17,top100,Vietnamita,Tiếng Việt,vi,vie,Latn,ltr,propio,A2
+25,top100,Cantonés,粵語 / 廣東話,yue,yue,Hant,ltr,zh-Hant-HK (escrito) + contenido en cantonés,A2
+26,top100,Chino wu,吴语,wuu,wuu,Hans,ltr,se atiende con chino simplificado (zh-Hans),A2
+27,top100,Coreano,한국어,ko,kor,Kore,ltr,propio,A2
+35,top100,Min del sur (hokkien),閩南語 / Bân-lâm-gú,nan,nan,Hant,ltr,se atiende con chino tradicional (zh-Hant) y zh-Hans,A2
+36,top100,Chino jin,晋语,cjy,cjy,Hans,ltr,se atiende con chino simplificado (zh-Hans),A2
+41,top100,Hakka,客家話,hak,hak,Hant,ltr,se atiende con chino tradicional/simplificado,A2
+54,top100,Chino xiang,湘语,hsn,hsn,Hans,ltr,se atiende con chino simplificado (zh-Hans),A2
+,extra,Mongol,монгол хэл,mn,khk,Cyrl,ltr,propio,A2

@@ -1,0 +1,14 @@
+rank_aprox,tipo,idioma_es,nombre_nativo,bcp47_web,iso639_3,escritura,direccion,mapeo_web,grupo_investigacion
+19,top100,Hausa,Hausa,ha,hau,Latn,ltr,propio (poca búsqueda escrita; el comercio usa inglés),A8
+22,top100,Suajili,Kiswahili,sw,swa,Latn,ltr,propio,A8
+33,top100,Amárico,አማርኛ,am,amh,Ethi,ltr,propio,A8
+43,top100,Yoruba,Yorùbá,yo,yor,Latn,ltr,propio (poca búsqueda escrita; el comercio usa inglés),A8
+53,top100,Igbo,Igbo,ig,ibo,Latn,ltr,propio (poca búsqueda escrita; el comercio usa inglés),A8
+55,top100,Oromo,Afaan Oromoo,om,orm,Latn,ltr,propio (poca búsqueda escrita),A8
+64,top100,Somalí,Soomaali,so,som,Latn,ltr,propio,A8
+68,top100,Sueco,svenska,sv,swe,Latn,ltr,propio,A8
+,extra,Danés,dansk,da,dan,Latn,ltr,propio,A8
+,extra,Noruego,norsk,nb,nob,Latn,ltr,propio (bokmål; nynorsk minoritario),A8
+,extra,Finés,suomi,fi,fin,Latn,ltr,propio,A8
+,extra,Georgiano,ქართული,ka,kat,Geor,ltr,propio,A8
+,extra,Armenio,հայերեն,hy,hye,Armn,ltr,propio,A8

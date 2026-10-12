@@ -1,0 +1,12 @@
+rank_aprox,tipo,idioma_es,nombre_nativo,bcp47_web,iso639_3,escritura,direccion,mapeo_web,grupo_investigacion
+7,top100,Bengalí,বাংলা,bn,ben,Beng,ltr,propio,A5
+16,top100,Maratí,मराठी,mr,mar,Deva,ltr,propio,A5
+18,top100,Telugu,తెలుగు,te,tel,Telu,ltr,propio,A5
+24,top100,Tamil,தமிழ்,ta,tam,Taml,ltr,propio,A5
+32,top100,Guyaratí,ગુજરાતી,gu,guj,Gujr,ltr,propio,A5
+38,top100,Canarés,ಕನ್ನಡ,kn,kan,Knda,ltr,propio,A5
+44,top100,Malayalam,മലയാളം,ml,mal,Mlym,ltr,propio,A5
+45,top100,Odia,ଓଡ଼ିଆ,or,ory,Orya,ltr,propio,A5
+56,top100,Nepalí,नेपाली,ne,npi,Deva,ltr,propio,A5
+61,top100,Asamés,অসমীয়া,as,asm,Beng,ltr,propio (poca búsqueda escrita),A5
+87,top100,Cingalés,සිංහල,si,sin,Sinh,ltr,propio,A5

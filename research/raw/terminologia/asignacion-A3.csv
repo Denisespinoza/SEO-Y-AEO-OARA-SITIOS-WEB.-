@@ -1,0 +1,15 @@
+rank_aprox,tipo,idioma_es,nombre_nativo,bcp47_web,iso639_3,escritura,direccion,mapeo_web,grupo_investigacion
+5,top100,Árabe estándar moderno,العربية,ar,arb,Arab,rtl,propio (idioma escrito común de todas las variedades árabes),A3
+15,top100,Árabe egipcio,مصرى,arz,arz,Arab,rtl,se escribe en árabe estándar (ar); páginas con vocabulario ar-EG,A3
+28,top100,Persa (Irán),فارسی,fa,pes,Arab,rtl,propio,A3
+37,top100,Árabe levantino,شامي,apc,apc,Arab,rtl,se escribe en árabe estándar (ar); vocabulario ar-LB/SY/JO/PS,A3
+40,top100,Árabe sudanés,سوداني,apd,apd,Arab,rtl,se escribe en árabe estándar (ar); vocabulario ar-SD,A3
+48,top100,Árabe marroquí (darija),الدارجة,ary,ary,Arab,rtl,se escribe en árabe estándar (ar) y francés (fr-MA),A3
+62,top100,Pastún,پښتو,ps,pbt,Arab,rtl,propio (poca búsqueda escrita),A3
+63,top100,Kurdo (kurmanyí),Kurdî,ku,kmr,Latn,ltr,propio (poca búsqueda escrita),A3
+80,top100,Árabe mesopotámico (iraquí),عراقي,acm,acm,Arab,rtl,se escribe en árabe estándar (ar); vocabulario ar-IQ,A3
+81,top100,Árabe najdí,نجدي,ars,ars,Arab,rtl,se escribe en árabe estándar (ar); vocabulario ar-SA,A3
+82,top100,Árabe argelino,الدارجة الجزائرية,arq,arq,Arab,rtl,se escribe en árabe estándar (ar) y francés (fr-DZ),A3
+83,top100,Árabe tunecino,تونسي,aeb,aeb,Arab,rtl,se escribe en árabe estándar (ar) y francés (fr-TN),A3
+84,top100,Árabe del Golfo,خليجي,afb,afb,Arab,rtl,se escribe en árabe estándar (ar); vocabulario ar-AE/KW/QA,A3
+85,top100,Hebreo,עברית,he,heb,Hebr,rtl,propio,A3

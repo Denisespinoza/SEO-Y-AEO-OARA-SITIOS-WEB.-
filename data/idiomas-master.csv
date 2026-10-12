@@ -1,0 +1,114 @@
+rank_aprox,tipo,idioma_es,nombre_nativo,bcp47_web,iso639_3,escritura,direccion,mapeo_web,grupo_investigacion
+1,top100,Inglés,English,en,eng,Latn,ltr,propio,A1
+2,top100,Chino mandarín,中文 / 普通话,zh-Hans,cmn,Hans,ltr,propio (zh-Hans China/Singapur; zh-Hant Taiwán como variante),A2
+3,top100,Hindi,हिन्दी,hi,hin,Deva,ltr,propio,A4
+4,top100,Español,español,es,spa,Latn,ltr,"propio (es-ES, es-419, es-AR/MX)",A1
+5,top100,Árabe estándar moderno,العربية,ar,arb,Arab,rtl,propio (idioma escrito común de todas las variedades árabes),A3
+6,top100,Francés,français,fr,fra,Latn,ltr,"propio (fr-FR, fr-CA, África)",A1
+7,top100,Bengalí,বাংলা,bn,ben,Beng,ltr,propio,A5
+8,top100,Portugués,português,pt,por,Latn,ltr,propio (pt-BR y pt-PT),A1
+9,top100,Ruso,русский,ru,rus,Cyrl,ltr,propio,A7
+10,top100,Urdu,اردو,ur,urd,Arab,rtl,propio,A4
+11,top100,Indonesio,Bahasa Indonesia,id,ind,Latn,ltr,propio,A6
+12,top100,Alemán,Deutsch,de,deu,Latn,ltr,"propio (de-DE, de-AT, de-CH)",A1
+13,top100,Japonés,日本語,ja,jpn,Jpan,ltr,propio,A2
+14,top100,Pidgin nigeriano,Naijá,pcm,pcm,Latn,ltr,se atiende con inglés (en-NG); casi sin búsquedas escritas,A1
+15,top100,Árabe egipcio,مصرى,arz,arz,Arab,rtl,se escribe en árabe estándar (ar); páginas con vocabulario ar-EG,A3
+16,top100,Maratí,मराठी,mr,mar,Deva,ltr,propio,A5
+17,top100,Vietnamita,Tiếng Việt,vi,vie,Latn,ltr,propio,A2
+18,top100,Telugu,తెలుగు,te,tel,Telu,ltr,propio,A5
+19,top100,Hausa,Hausa,ha,hau,Latn,ltr,propio (poca búsqueda escrita; el comercio usa inglés),A8
+20,top100,Turco,Türkçe,tr,tur,Latn,ltr,propio,A6
+21,top100,Panyabí occidental,پنجابی (شاہ مکھی),pnb,pnb,Arab,rtl,se atiende con urdu (ur),A4
+22,top100,Suajili,Kiswahili,sw,swa,Latn,ltr,propio,A8
+23,top100,Tagalo / filipino,Tagalog / Filipino,fil,fil,Latn,ltr,propio (el comercio mezcla inglés),A6
+24,top100,Tamil,தமிழ்,ta,tam,Taml,ltr,propio,A5
+25,top100,Cantonés,粵語 / 廣東話,yue,yue,Hant,ltr,zh-Hant-HK (escrito) + contenido en cantonés,A2
+26,top100,Chino wu,吴语,wuu,wuu,Hans,ltr,se atiende con chino simplificado (zh-Hans),A2
+27,top100,Coreano,한국어,ko,kor,Kore,ltr,propio,A2
+28,top100,Persa (Irán),فارسی,fa,pes,Arab,rtl,propio,A3
+29,top100,Javanés,Basa Jawa,jv,jav,Latn,ltr,se atiende con indonesio (id),A6
+30,top100,Italiano,italiano,it,ita,Latn,ltr,propio,A1
+31,top100,Tailandés,ภาษาไทย,th,tha,Thai,ltr,propio,A6
+32,top100,Guyaratí,ગુજરાતી,gu,guj,Gujr,ltr,propio,A5
+33,top100,Amárico,አማርኛ,am,amh,Ethi,ltr,propio,A8
+34,top100,Bhoyapurí,भोजपुरी,bho,bho,Deva,ltr,se atiende con hindi (hi),A4
+35,top100,Min del sur (hokkien),閩南語 / Bân-lâm-gú,nan,nan,Hant,ltr,se atiende con chino tradicional (zh-Hant) y zh-Hans,A2
+36,top100,Chino jin,晋语,cjy,cjy,Hans,ltr,se atiende con chino simplificado (zh-Hans),A2
+37,top100,Árabe levantino,شامي,apc,apc,Arab,rtl,se escribe en árabe estándar (ar); vocabulario ar-LB/SY/JO/PS,A3
+38,top100,Canarés,ಕನ್ನಡ,kn,kan,Knda,ltr,propio,A5
+39,top100,Polaco,polski,pl,pol,Latn,ltr,propio,A7
+40,top100,Árabe sudanés,سوداني,apd,apd,Arab,rtl,se escribe en árabe estándar (ar); vocabulario ar-SD,A3
+41,top100,Hakka,客家話,hak,hak,Hant,ltr,se atiende con chino tradicional/simplificado,A2
+42,top100,Ucraniano,українська,uk,ukr,Cyrl,ltr,propio,A7
+43,top100,Yoruba,Yorùbá,yo,yor,Latn,ltr,propio (poca búsqueda escrita; el comercio usa inglés),A8
+44,top100,Malayalam,മലയാളം,ml,mal,Mlym,ltr,propio,A5
+45,top100,Odia,ଓଡ଼ିଆ,or,ory,Orya,ltr,propio,A5
+46,top100,Maithili,मैथिली,mai,mai,Deva,ltr,se atiende con hindi (hi),A4
+47,top100,Birmano,မြန်မာ,my,mya,Mymr,ltr,propio (Unicode vs. Zawgyi),A6
+48,top100,Árabe marroquí (darija),الدارجة,ary,ary,Arab,rtl,se escribe en árabe estándar (ar) y francés (fr-MA),A3
+49,top100,Uzbeko,Oʻzbekcha,uz,uzn,Latn,ltr,propio (latín; también cirílico),A6
+50,top100,Sundanés,Basa Sunda,su,sun,Latn,ltr,se atiende con indonesio (id),A6
+51,top100,Rumano,română,ro,ron,Latn,ltr,propio,A7
+52,top100,Neerlandés,Nederlands,nl,nld,Latn,ltr,"propio (nl-NL, nl-BE)",A1
+53,top100,Igbo,Igbo,ig,ibo,Latn,ltr,propio (poca búsqueda escrita; el comercio usa inglés),A8
+54,top100,Chino xiang,湘语,hsn,hsn,Hans,ltr,se atiende con chino simplificado (zh-Hans),A2
+55,top100,Oromo,Afaan Oromoo,om,orm,Latn,ltr,propio (poca búsqueda escrita),A8
+56,top100,Nepalí,नेपाली,ne,npi,Deva,ltr,propio,A5
+57,top100,Malayo,Bahasa Melayu,ms,zsm,Latn,ltr,propio,A6
+58,top100,Zulú,isiZulu,zu,zul,Latn,ltr,propio (poca búsqueda escrita; el comercio usa inglés),A9
+59,top100,Azerí,Azərbaycan dili,az,azj,Latn,ltr,propio,A6
+60,top100,Sindhi,سنڌي,sd,snd,Arab,rtl,propio (poca búsqueda escrita),A4
+61,top100,Asamés,অসমীয়া,as,asm,Beng,ltr,propio (poca búsqueda escrita),A5
+62,top100,Pastún,پښتو,ps,pbt,Arab,rtl,propio (poca búsqueda escrita),A3
+63,top100,Kurdo (kurmanyí),Kurdî,ku,kmr,Latn,ltr,propio (poca búsqueda escrita),A3
+64,top100,Somalí,Soomaali,so,som,Latn,ltr,propio,A8
+65,top100,Húngaro,magyar,hu,hun,Latn,ltr,propio,A7
+66,top100,Griego,Ελληνικά,el,ell,Grek,ltr,propio,A7
+67,top100,Checo,čeština,cs,ces,Latn,ltr,propio,A7
+68,top100,Sueco,svenska,sv,swe,Latn,ltr,propio,A8
+69,top100,Kazajo,қазақша,kk,kaz,Cyrl,ltr,propio (convive con ruso),A6
+70,top100,Serbio,српски / srpski,sr,srp,Cyrl,ltr,propio (cirílico y latín),A7
+71,top100,Croata,hrvatski,hr,hrv,Latn,ltr,propio,A7
+72,top100,Búlgaro,български,bg,bul,Cyrl,ltr,propio,A7
+73,top100,Awadhi,अवधी,awa,awa,Deva,ltr,se atiende con hindi (hi),A4
+74,top100,Magahi,मगही,mag,mag,Deva,ltr,se atiende con hindi (hi),A4
+75,top100,Chhattisgarhi,छत्तीसगढ़ी,hne,hne,Deva,ltr,se atiende con hindi (hi),A4
+76,top100,Rajastaní / marwari,राजस्थानी,raj,raj,Deva,ltr,se atiende con hindi (hi),A4
+77,top100,Haryanvi,हरियाणवी,bgc,bgc,Deva,ltr,se atiende con hindi (hi),A4
+78,top100,Decanés (dakhini),دکھنی,dcc,dcc,Arab,rtl,se atiende con urdu/hindi,A4
+79,top100,Saraiki,سرائیکی,skr,skr,Arab,rtl,se atiende con urdu (ur),A4
+80,top100,Árabe mesopotámico (iraquí),عراقي,acm,acm,Arab,rtl,se escribe en árabe estándar (ar); vocabulario ar-IQ,A3
+81,top100,Árabe najdí,نجدي,ars,ars,Arab,rtl,se escribe en árabe estándar (ar); vocabulario ar-SA,A3
+82,top100,Árabe argelino,الدارجة الجزائرية,arq,arq,Arab,rtl,se escribe en árabe estándar (ar) y francés (fr-DZ),A3
+83,top100,Árabe tunecino,تونسي,aeb,aeb,Arab,rtl,se escribe en árabe estándar (ar) y francés (fr-TN),A3
+84,top100,Árabe del Golfo,خليجي,afb,afb,Arab,rtl,se escribe en árabe estándar (ar); vocabulario ar-AE/KW/QA,A3
+85,top100,Hebreo,עברית,he,heb,Hebr,rtl,propio,A3
+86,top100,Jemer,ភាសាខ្មែរ,km,khm,Khmr,ltr,propio,A6
+87,top100,Cingalés,සිංහල,si,sin,Sinh,ltr,propio,A5
+88,top100,Cebuano,Binisaya,ceb,ceb,Latn,ltr,se atiende con filipino/inglés,A6
+89,top100,Malgache,Malagasy,mg,mlg,Latn,ltr,propio (poca búsqueda escrita; también francés),A9
+90,top100,Shona,chiShona,sn,sna,Latn,ltr,propio (poca búsqueda escrita; el comercio usa inglés),A9
+91,top100,Chichewa / nyanja,Chichewa,ny,nya,Latn,ltr,propio (poca búsqueda escrita; el comercio usa inglés),A9
+92,top100,Kinyarwanda,Ikinyarwanda,rw,kin,Latn,ltr,propio (poca búsqueda escrita; también francés/inglés),A9
+93,top100,Lingala,Lingála,ln,lin,Latn,ltr,propio (poca búsqueda escrita; también francés),A9
+94,top100,Akan (twi),Akan,ak,aka,Latn,ltr,propio (poca búsqueda escrita; el comercio usa inglés),A9
+95,top100,Fula (fulfulde),Fulfulde,ff,fub,Latn,ltr,propio (poca búsqueda escrita; también francés/inglés),A9
+96,top100,Quechua,Runasimi,qu,que,Latn,ltr,propio (poca búsqueda escrita; el comercio usa español),A9
+97,top100,Criollo haitiano,Kreyòl ayisyen,ht,hat,Latn,ltr,propio (poca búsqueda escrita; también francés),A1
+98,top100,Afrikáans,Afrikaans,af,afr,Latn,ltr,propio,A1
+99,top100,Xhosa,isiXhosa,xh,xho,Latn,ltr,propio (poca búsqueda escrita; el comercio usa inglés),A9
+100,top100,Tigriña,ትግርኛ,ti,tir,Ethi,ltr,propio (poca búsqueda escrita),A9
+,extra,Catalán,català,ca,cat,Latn,ltr,propio,A1
+,extra,Mongol,монгол хэл,mn,khk,Cyrl,ltr,propio,A2
+,extra,Lao,ພາສາລາວ,lo,lao,Laoo,ltr,propio,A6
+,extra,Eslovaco,slovenčina,sk,slk,Latn,ltr,propio,A7
+,extra,Esloveno,slovenščina,sl,slv,Latn,ltr,propio,A7
+,extra,Lituano,lietuvių,lt,lit,Latn,ltr,propio,A7
+,extra,Letón,latviešu,lv,lav,Latn,ltr,propio,A7
+,extra,Estonio,eesti,et,est,Latn,ltr,propio,A7
+,extra,Danés,dansk,da,dan,Latn,ltr,propio,A8
+,extra,Noruego,norsk,nb,nob,Latn,ltr,propio (bokmål; nynorsk minoritario),A8
+,extra,Finés,suomi,fi,fin,Latn,ltr,propio,A8
+,extra,Georgiano,ქართული,ka,kat,Geor,ltr,propio,A8
+,extra,Armenio,հայերեն,hy,hye,Armn,ltr,propio,A8
