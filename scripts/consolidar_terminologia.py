@@ -11,7 +11,17 @@ import csv, glob, json, os, sys
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MASTER = os.path.join(RAIZ, "data", "idiomas-master.csv")
-PARTES = sorted(glob.glob(os.path.join(RAIZ, "research", "raw", "terminologia", "part-*.csv")))
+def _partes():
+    """Por grupo usa la 2.ª pasada (part-X.v2.csv, verificada con búsquedas) si existe; si no, la 1.ª (part-X.csv)."""
+    d = os.path.join(RAIZ, "research", "raw", "terminologia")
+    elegidas = []
+    for p1 in sorted(glob.glob(os.path.join(d, "part-A?.csv"))):
+        p2 = p1[:-4] + ".v2.csv"
+        elegidas.append(p2 if os.path.exists(p2) else p1)
+    return elegidas
+
+
+PARTES = _partes()
 COLS_TERM = [
     "termino_molde_costura", "romanizacion", "sinonimos_y_variantes", "termino_pdf_digital",
     "termino_patronaje_oficio", "termino_imprimir_en_casa", "termino_sublimacion",
